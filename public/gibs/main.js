@@ -71,6 +71,5 @@
     for (var l in baseLayers) {
       baseLayers[l].setTransparent && baseLayers[l].setTransparent(this.checked);
     }
-  };
-  )
+  });
 })(window, jQuery)
