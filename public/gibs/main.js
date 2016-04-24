@@ -65,7 +65,7 @@
   }).on('baselayerchange', function(event) {
     $('#controls').toggle(event.layer.isTemporal());
     $('#transparent-container').toggle(!!event.layer.setTransparent);
-  };)
+  });
 
   $('#transparent-checkbox').change(function() {
     for (var l in baseLayers) {
